@@ -35,7 +35,7 @@ class minimax{
 		for(int i = 0; i < data.length; i++)
 			tree[n - data.length + i] = data[i];
 	}
-//*********************************************
+	//*********************************************
 	static int minimax(int position, int alpha, int beta, boolean minimaxFlag){//
 		if(position*branch + 1 >= tree.length){//³Ì©³¼h
 			System.out.print(tree[position] + " ");
